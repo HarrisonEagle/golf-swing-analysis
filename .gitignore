@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Local media & generated output
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+
+# Debug artifacts
+output/debug/
+
+# Models (if downloaded locally)
+models/
